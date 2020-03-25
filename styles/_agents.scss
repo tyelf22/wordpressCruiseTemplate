@@ -1,0 +1,31 @@
+h1 {
+    margin: 1rem;
+}
+
+.agentImg{
+    width: 100%;
+    
+    img {
+        width: 100%;
+    }
+}
+
+.agentInfo{
+    padding: 10px;
+    .agentInfoBold {
+        font-weight: 700;
+        margin-top: 10px;
+        color: #2E9BAF;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .agentImg{
+        
+        img {
+            float: right;
+            width: 32rem;
+            height: 30rem;
+        }
+    }
+}

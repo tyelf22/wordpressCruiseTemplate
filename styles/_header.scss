@@ -1,0 +1,31 @@
+header {
+    padding: $paddingFix;
+    display: flex;
+    margin-top: 4.4rem;
+
+    h1 {
+        padding: 10px 0;
+        
+        span {
+            font-weight: 100;
+        }
+    }
+    img {
+        height: 80px;
+        padding: 10px;
+    }
+    a {
+        margin-left: auto;
+        align-self: flex-end;
+        text-decoration: none;
+        color: black;
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (min-width: 970px) {
+    header {
+        margin-top: 0;
+    }
+
+}

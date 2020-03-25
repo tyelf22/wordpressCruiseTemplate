@@ -1,0 +1,22 @@
+.search {
+    padding: $paddingFix;
+    h1 {
+        margin: 0.8rem 0;
+        
+    }
+
+    h2{
+        color: #2E9BAF;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        background: #2E9BAF;
+        border: none;
+        border-radius: 10px;
+        padding: 0.8rem;
+        float: right;
+        margin-top: 1.5rem 0;
+    }
+}

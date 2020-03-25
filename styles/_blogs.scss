@@ -1,0 +1,86 @@
+.blog {
+    margin-top: $sectionTop;
+    h2 {
+        padding: $paddingFix;
+    }
+
+    .articles {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .article {
+            height: 20rem;
+            width: 20rem;
+            margin: auto;
+            margin-top: $sectionTop;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+
+            .articleTitle {
+                background-color: rgba(0, 0, 0, 0.8);
+                padding: 1rem;
+                text-align: center;
+                color: white;
+            }
+
+            .date {
+                background-color: rgba(0, 0, 0, 0.8);
+                padding: 0.5rem;
+                text-align: center;
+                color: white;
+            }
+        }
+
+        .dining {
+            background-image: url(../images/blogPics/cabotDining1.png);
+            background-position: right;
+            opacity: 75%;
+            transition: opacity .25s ease-in-out;
+        }
+
+        .beach {
+            background-image: url(../images/blogPics/cabotBeaches1.png);
+            background-position: right;
+            opacity: 75%;
+            transition: opacity .25s ease-in-out;
+        }
+
+        .slide {
+            background-image: url(../images/blogPics/cabotWaterSlide1.png);
+            background-position: left;
+            opacity: 75%;
+            transition: opacity .25s ease-in-out;
+        }
+
+        .para{
+            background-image: url(../images/blogPics/cabotParagliding1.png);
+            background-position: top right;
+            opacity: 75%;
+            transition: opacity .25s ease-in-out;
+        }
+
+        .para:hover {
+            
+            opacity: 100%;
+        }
+
+        .dining:hover {
+            
+            opacity: 100%;
+        }
+
+        .beach:hover {
+           
+            opacity: 100%;
+        }
+
+        .slide:hover {
+            
+            opacity: 100%;
+        }
+    } 
+
+}

@@ -1,0 +1,42 @@
+.destinations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    figure {
+        flex: 45%;
+        max-width: 45%;
+        padding: 0 4px;
+        text-align: center;
+    }
+
+    img {
+        vertical-align: middle;
+        width: 100%;
+        
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .destinations {
+ 
+        figure {
+            flex: 30%;
+            max-width: 30%;
+        }
+    }
+
+}
+
+
+@media only screen and (min-width: 800px) {
+    .destinations {
+ 
+        figure {
+            flex: 20%;
+            max-width: 20%;
+        }
+
+    }
+
+}

@@ -1,0 +1,73 @@
+.cruises{
+    h1 {
+        padding: $paddingFix
+    }
+    .cruise {
+
+        .img{
+            padding: 0.5rem;
+            img {
+                width: 100%;
+                max-width: 60rem;
+            }
+        }
+
+        .desc {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 5px;
+
+            p {
+                
+            }
+            
+            button {
+                margin: 1rem auto;
+                width: 90%;
+                padding: 1rem;
+                border: none;
+                border-radius: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .cruises{
+        .cruise {
+            display: flex;
+
+            .img{
+                padding: 0.5rem;
+                img {
+                    width: 350px;
+                    height: 150px;
+                }
+            }
+    
+            .desc {
+                display: block;
+                p {
+                    
+                }
+                
+                button {
+                    float: right;
+                    align-self: baseline;
+                    width: 12rem;
+                    padding: 1rem;
+                    border: none;
+                    border-radius: 20px;
+                    cursor: pointer;
+                    background-color: #2E9BAF;
+                    color: white;
+                }
+
+                button:hover {
+                    background-color: darken(#2E9BAF, 10%);
+                }
+            }
+        }
+    }
+}
