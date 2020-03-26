@@ -701,7 +701,11 @@ h1 {
   cursor: pointer;
 }
 
-.wpcf7 .wpcf7-response-output, .wpcf7 div.screen-reader-response {
+.wpcf7 .wpcf7-response-output {
+  color: green;
+}
+
+.wpcf7 .screen-reader-response {
   display: none;
 }
 
@@ -709,6 +713,81 @@ h1 {
   color: red;
   display: block;
   margin: -5px 0 10px 0;
+}
+
+.news-content {
+  padding: 0.8rem;
+}
+
+.news-content .date-post {
+  background-color: #2E9BAF;
+  float: left;
+}
+
+.news-content .date-post h2 {
+  color: red;
+}
+
+.news-content .date-post p {
+  color: green;
+}
+
+.news-content .post-content-text {
+  margin-left: 4rem;
+}
+
+.news-content .post-content-text h3.news-title {
+  font-size: 1.4rem;
+}
+
+.news-content .post-content-text .news-content-excerpt {
+  color: blue;
+}
+
+.news-content a.news-more-link {
+  color: magenta;
+}
+
+.news_pagination {
+  text-align: center;
+}
+
+.news_pagination .page-numbers {
+  background-color: teal;
+}
+
+.news_pagination .page-numbers a {
+  color: white;
+}
+
+.news_pagination .page-numbers a:hover {
+  background-color: brown;
+}
+
+.news_pagination .page-numbers .current {
+  background-color: purple;
+}
+
+.newsImg {
+  height: auto;
+  width: 100%;
+}
+
+.newsContainer {
+  padding: 0 0.8rem;
+}
+
+.newsContainer p {
+  margin-bottom: 4rem;
+}
+
+@media only screen and (min-width: 620px) {
+  .newsImg {
+    float: right;
+    width: 30rem;
+    height: 20rem;
+    padding: 2rem;
+  }
 }
 
 html {

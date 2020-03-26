@@ -10,6 +10,15 @@
     <link href="https://fonts.googleapis.com/css?family=Arimo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href=" <?php echo get_template_directory_uri() ?>/styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+
+    <script src="https://www.google.com/recaptcha/api.js?render=6Lem0uMUAAAAAEp6Nj98CfXgL0n_RrSbHS2FEW-s"></script>
+    <script>
+    grecaptcha.ready(function() {
+        grecaptcha.execute('6Lem0uMUAAAAAEp6Nj98CfXgL0n_RrSbHS2FEW-s', {action: 'homepage'}).then(function(token) {
+        ...
+        });
+    });
+    </script>
 </head>
 <body>
     <!-- wrapper -->

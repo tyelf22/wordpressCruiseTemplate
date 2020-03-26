@@ -21,9 +21,10 @@
         cursor: pointer;
     }
 
-    .wpcf7-form-control-wrap{
+    .wpcf7-response-output {
+        color: green;
     }
-    .wpcf7-response-output, div.screen-reader-response {
+    .screen-reader-response {
         display: none;
     }
     .wpcf7-not-valid-tip {
@@ -31,4 +32,5 @@
         display: block;
         margin: -5px 0 10px 0;
     }
+
 }
