@@ -1,32 +1,49 @@
 .news-content {
     padding: 0.8rem;
 
+    a, a:link, a:visited, a:focus, a:hover, a:active{
+        color:black;
+        text-decoration: none; 
+        cursor: pointer;
+      }
+
     .date-post {
         background-color: #2E9BAF;
         float: left;
+        margin: 0 1rem;
+        padding: 1rem;
 
         h2{
-           color: red;
+           color: white;
+           margin: 0;
+           text-align: center;
         }
         p {
-            color: green;
+            color: white;
         }
     }
 
     .post-content-text {
-        margin-left: 4rem;
+        margin-left: 10rem;
+        padding: 1rem;
 
         h3.news-title {
-            font-size: 1.4rem;
+            font-size: 2rem;
+            color: black;
         }
         .news-content-excerpt {
-            color: blue;
+            margin-bottom: 1rem;
+
+            .news-short-content {
+                padding: 1rem 0;
+            }
         }
 
     }
 
     a.news-more-link {
-        color: magenta;
+        color: #2E9BAF;
+        cursor: pointer;
     }
 
 }
@@ -34,20 +51,17 @@
 .news_pagination {
     text-align: center;
 
+
     .page-numbers{
-        background-color: teal;
-
-        a {
-            color: white;
-        }
-
-        a:hover {
-            background-color: brown;
-        }
+        text-decoration: none;
+        color: black;
 
         .current {
-            background-color: purple;
+            span {
+                color: red;
+            }
         }
+
     }
 }
 

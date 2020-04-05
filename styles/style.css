@@ -138,6 +138,7 @@ nav form #search {
   nav ul.menu {
     display: block;
     width: 100%;
+    font-size: 1.4rem;
   }
   nav ul li {
     list-style-type: none;
@@ -147,7 +148,7 @@ nav form #search {
   nav ul li a {
     border: none;
     border-right: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1.25rem 1.5rem;
+    padding: 1.25rem 1rem;
     -webkit-transition: 0.3s linear;
     transition: 0.3s linear;
     -webkit-transition: background 0.3s linear;
@@ -719,33 +720,50 @@ h1 {
   padding: 0.8rem;
 }
 
+.news-content a, .news-content a:link, .news-content a:visited, .news-content a:focus, .news-content a:hover, .news-content a:active {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .news-content .date-post {
   background-color: #2E9BAF;
   float: left;
+  margin: 0 1rem;
+  padding: 1rem;
 }
 
 .news-content .date-post h2 {
-  color: red;
+  color: white;
+  margin: 0;
+  text-align: center;
 }
 
 .news-content .date-post p {
-  color: green;
+  color: white;
 }
 
 .news-content .post-content-text {
-  margin-left: 4rem;
+  margin-left: 10rem;
+  padding: 1rem;
 }
 
 .news-content .post-content-text h3.news-title {
-  font-size: 1.4rem;
+  font-size: 2rem;
+  color: black;
 }
 
 .news-content .post-content-text .news-content-excerpt {
-  color: blue;
+  margin-bottom: 1rem;
+}
+
+.news-content .post-content-text .news-content-excerpt .news-short-content {
+  padding: 1rem 0;
 }
 
 .news-content a.news-more-link {
-  color: magenta;
+  color: #2E9BAF;
+  cursor: pointer;
 }
 
 .news_pagination {
@@ -753,19 +771,12 @@ h1 {
 }
 
 .news_pagination .page-numbers {
-  background-color: teal;
+  text-decoration: none;
+  color: black;
 }
 
-.news_pagination .page-numbers a {
-  color: white;
-}
-
-.news_pagination .page-numbers a:hover {
-  background-color: brown;
-}
-
-.news_pagination .page-numbers .current {
-  background-color: purple;
+.news_pagination .page-numbers .current span {
+  color: red;
 }
 
 .newsImg {

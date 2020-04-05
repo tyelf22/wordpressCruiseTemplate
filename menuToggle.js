@@ -34,9 +34,9 @@ if (pageHREF !== "") {
         let cpageHREF = curlArray[curlArray.length - 2]
 
         if (cpageHREF === pageHREF) {
-            menu[i].parentNode.style.background = "#257C8C"
+            menu[i].parentNode.style.background = "#2E9BAF"
             if(menu[i].parentNode.parentNode.parentNode.tagName === 'LI') {
-                menu[i].parentNode.parentNode.parentNode.style.background = "#257C8C"
+                menu[i].parentNode.parentNode.parentNode.style.background = "#2E9BAF"
             } else {
                 menu[i].parentNode.className = ""
             }
